@@ -75,14 +75,16 @@ div#head-content-text {
 }
 
 div#head-content-text button {
-    font-size: 18px;
+    font-size: 14px;
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 0 5% 0 5%;
     margin: 15px 0 0 0;
     border-radius: 6px;
-    padding: 1px 3px 1px 3px;
+    padding: 1% 3% 1% 3%;
     text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #1f2937;
 }
 
 div#head-content-img {
@@ -214,4 +216,21 @@ div#caixa-azul-button button{
     width: 50%;
     height: 100%;
     justify-self: right;
+    cursor: pointer;
+}
+
+div#foot {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1% 15% 1% 15%;
+    background-color: #1f2937;
+}
+
+div#foot-text{
+    justify-self: center;
+}
+div#foot-text h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
 }
