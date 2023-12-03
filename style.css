@@ -4,7 +4,7 @@ body {
 }
 
 div {
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 
 div#head {
@@ -129,7 +129,7 @@ div#quadros-quadrados {
 }
 
 div.quadrados {
-    border: 5px solid #7cacf8;
+    border: 5px solid #3882f6;
     border-radius: 10px;
     width: 170px;
     height: 170px;
@@ -167,4 +167,51 @@ div#author {
 div#author h2{
     font-size: 18px;
     margin: 5px;
+}
+
+div#div4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 15% 5% 15%;
+    background-color: #ffffff;
+}
+
+div#caixa-azul {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #3882f6;
+    padding: 2% 10% 2% 10%;
+    border-radius: 12px;
+}
+
+div#caixa-azul-text {
+    margin: 0;  
+}
+
+div#caixa-azul-text h1{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+div#caixa-azul-desc h2{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+div#caixa-azul-button {
+    display: grid;
+}
+
+div#caixa-azul-button button{
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 1% 5% 1% 5%;
+    width: 50%;
+    height: 100%;
+    justify-self: right;
 }
