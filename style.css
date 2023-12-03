@@ -4,7 +4,7 @@ body {
 }
 
 div {
-   /* border: 1px solid red; */
+   border: 1px solid red;
 }
 
 div#head {
@@ -146,3 +146,25 @@ div.quadrados-desc {
     text-align: center;
 }
 
+div#comment {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 3% 30% 3% 30%;
+    background-color: #e5e7eb;
+}
+
+div#commentary h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+div#author {
+    justify-self: right;
+}
+
+div#author h2{
+    font-size: 18px;
+    margin: 5px;
+}
