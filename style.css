@@ -4,12 +4,12 @@ body {
 }
 
 div {
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 
 div#head {
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 1fr 8fr;
     padding: 0 15% 0 15%;
     background-color: #1f2937;
 }
@@ -101,17 +101,18 @@ div#head-content-img h3 {
 
 div#quadros {
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 1fr 2fr;
     padding: 0 15% 0 15%;
-    background-color: rgba(14, 13, 13, 0.897);
+    background-color: rgba(236, 236, 236, 0.897);
     margin: 0;
+    padding-bottom: 50px;
 }
 
 div#quadros-head {
     display: table;
     font-weight: bolder;
     text-align: center;
-    margin: 0;
+    padding: 20px;
 }
 div#quadros-head h1 {
     display: table-cell;
@@ -123,16 +124,25 @@ div#quadros-head h1 {
 
 div#quadros-quadrados {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
 }
 
 div.quadrados {
-    border: 5px solid #3882f6;
+    border: 5px solid #7cacf8;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
 }
 
-div#quadrado1 {
-    
+div.quadradaos {
+    display: grid;
+    grid-template-rows: 175 auto;
+    max-width: 175px;
+ }
+
+div.quadrados-desc {
+    color: #1f2937;
+    text-align: center;
 }
+
